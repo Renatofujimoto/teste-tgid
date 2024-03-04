@@ -8,7 +8,7 @@ const fetchProducts = async () => {
 
 const useProducts = () =>
   useQuery({
-    queryKey: ["super-heroes"],
+    queryKey: ["products"],
     queryFn: () => fetchProducts(),
   });
 
